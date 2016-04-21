@@ -243,7 +243,7 @@ goog.scope(function() {
                 if (skipDisposition.skip) {
                     tryAgain = true;
                     setCurrentTestName(fullTestName);
-                    checkMessage(false, 'Skipping test due to tcuSkipList: ' + fullTestName);
+                    checkMessage(false, 'Skipping test due to tcuSkipList');
                 }
             }
         } while (tryAgain);
